@@ -112,10 +112,12 @@
     overflow: hidden;
     margin: 5px;
     margin-top: 30px;
+    object-fit:fill;
 }
 .img1 img{
-    width: 100%;
-    height: auto;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
 }
 .sm2{
     width: 400px;
@@ -176,3 +178,4 @@
 .redes img{
     width: 50px;
 }
+
